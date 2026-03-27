@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE cardapio SYSTEM "definicoes.dtd">
+<cardapio>
+    <prato id="1">
+        <nome>
+            coxinha
+        </nome>
+        <descricao>
+            Farinha com carne 
+        </descricao>
+        <ingredientes>
+            <ingrediente>Farinha</ingrediente>
+        </ingredientes>
+        <preco>
+
+        </preco>
+        <calorias>
+            2000
+        </calorias>
+        <tempoPreparo>
+            15 minutos
+        </tempoPreparo>
+    </prato>
+</cardapio>
