@@ -3,7 +3,10 @@
 <!ELEMENT prato (nome,descricao,ingredientes,preco,calorias,tempoPreparo)>
 <!ELEMENT ingredientes (ingrediente+)>
 <!ELEMENT ingrediente (#PCDATA)>
-<!ELEMENT nome (#PCDATA)>   
+<!ELEMENT preco (#PCDATA)>
+<!ATTLIST preco moeda (BRL|USD) "BRL">   
+<!ELEMENT nome (#PCDATA)>
 <!ELEMENT descricao (#PCDATA)>
 <!ELEMENT calorias (#PCDATA)>
 <!ELEMENT tempoPreparo (#PCDATA)>
+<!ENTITY reais "R$">

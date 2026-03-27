@@ -1,24 +1,123 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE cardapio SYSTEM "definicoes.dtd">
 <cardapio>
-    <prato id="1">
+    <prato id="a1">
         <nome>
             coxinha
         </nome>
         <descricao>
-            Farinha com carne 
+            Farinha com carne
         </descricao>
         <ingredientes>
             <ingrediente>Farinha</ingrediente>
+            <ingrediente>Frango</ingrediente>
         </ingredientes>
-        <preco>
-
-        </preco>
+        <preco moeda="BRL">&reais; 5,50</preco>
         <calorias>
             2000
         </calorias>
         <tempoPreparo>
             15 minutos
+        </tempoPreparo>
+    </prato>
+    <prato id="a2">
+        <nome>
+            pastel
+        </nome>
+        <descricao>
+            Massa crocante com recheio de queijo
+        </descricao>
+        <ingredientes>
+            <ingrediente>Massa</ingrediente>
+            <ingrediente>Queijo</ingrediente>
+        </ingredientes>
+        <preco moeda="BRL">&reais; 4,00</preco>
+        <calorias>
+            350
+        </calorias>
+        <tempoPreparo>
+            20 minutos
+        </tempoPreparo>
+    </prato>
+    <prato id="a3">
+        <nome>
+            brigadeiro
+        </nome>
+        <descricao>
+            Doce tradicional de chocolate
+        </descricao>
+        <ingredientes>
+            <ingrediente>Leite condensado</ingrediente>
+            <ingrediente>Cacau</ingrediente>
+            <ingrediente>Manteiga</ingrediente>
+        </ingredientes>
+        <preco moeda="BRL">&reais; 2,00</preco>
+        <calorias>
+            120
+        </calorias>
+        <tempoPreparo>
+            10 minutos
+        </tempoPreparo>
+    </prato>
+    <prato id="a4">
+        <nome>
+            suco de laranja
+        </nome>
+        <descricao>
+            Suco natural espremido na hora
+        </descricao>
+        <ingredientes>
+            <ingrediente>Laranja</ingrediente>
+            <ingrediente>Açúcar</ingrediente>
+        </ingredientes>
+        <preco moeda="BRL">&reais; 6,00</preco>
+        <calorias>
+            85
+        </calorias>
+        <tempoPreparo>
+            5 minutos
+        </tempoPreparo>
+    </prato>
+    <prato id="a5">
+        <nome>
+            sanduíche natural
+        </nome>
+        <descricao>
+            Pão integral com frango e vegetais
+        </descricao>
+        <ingredientes>
+            <ingrediente>Pão integral</ingrediente>
+            <ingrediente>Frango</ingrediente>
+            <ingrediente>Alface</ingrediente>
+            <ingrediente>Tomate</ingrediente>
+        </ingredientes>
+        <preco moeda="BRL">&reais; 12,00</preco>
+        <calorias>
+            450
+        </calorias>
+        <tempoPreparo>
+            12 minutos
+        </tempoPreparo>
+    </prato>
+    <prato id="a6">
+        <nome>
+            pizza de calabresa
+        </nome>
+        <descricao>
+            Massa fina com molho e calabresa
+        </descricao>
+        <ingredientes>
+            <ingrediente>Massa</ingrediente>
+            <ingrediente>Molho de tomate</ingrediente>
+            <ingrediente>Calabresa</ingrediente>
+            <ingrediente>Queijo</ingrediente>
+        </ingredientes>
+        <preco moeda="USD">$ 5,00</preco>
+        <calorias>
+            900
+        </calorias>
+        <tempoPreparo>
+            30 minutos
         </tempoPreparo>
     </prato>
 </cardapio>
