@@ -6,11 +6,11 @@
 <!ELEMENT nome (#PCDATA)>
 <!ELEMENT email (#PCDATA)>
 <!ELEMENT telefone (#PCDATA)>
-<!ELEMENT endereco (rua,bairro,cidade,numero?)>
+<!ELEMENT endereco (rua,bairro,cidade,número?)>
 <!ELEMENT rua (#PCDATA)>
 <!ELEMENT bairro (#PCDATA)>
 <!ELEMENT cidade (#PCDATA)>
-<!ELEMENT numero (#PCDATA)>
+<!ELEMENT número (#PCDATA)>
 <!ELEMENT caracteristicas (tamanho,numQuartos , numBanheiros)>
 <!ELEMENT tamanho (#PCDATA)>
 <!ELEMENT numQuartos (#PCDATA)>
@@ -31,7 +31,7 @@
             <rua>Rua das Flores</rua>
             <bairro>Centro</bairro>
             <cidade>João Pessoa</cidade>
-            <numero>123</numero>
+            <número>123</número>
         </endereco>
         <caracteristicas>
             <tamanho>80</tamanho>
@@ -51,7 +51,7 @@
             <rua>Alameda das Acácias</rua>
             <bairro>Bessa</bairro>
             <cidade>João Pessoa</cidade>
-            <numero>45</numero>
+            <número>45</número>
         </endereco>
         <caracteristicas>
             <tamanho>120</tamanho>
@@ -71,7 +71,7 @@
             <rua>Rodovia PB-008</rua>
             <bairro>Distrito Industrial</bairro>
             <cidade>Santa Rita</cidade>
-            <numero>500</numero>
+            <número>500</número>
         </endereco>
         <caracteristicas>
             <tamanho>500</tamanho>
@@ -91,7 +91,7 @@
             <rua>Rua Senador Ruy Carneiro</rua>
             <bairro>Manaíra</bairro>
             <cidade>João Pessoa</cidade>
-            <numero>12B</numero>
+            <número>12B</número>
         </endereco>
         <caracteristicas>
             <tamanho>35</tamanho>
