@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE imobiliaria [
+<!ELEMENT imobiliaria (imovel+)>
+<!ELEMENT imovel  (descricao,proprietario,endereco,caracteristicas ,valor)>
+<!ELEMENT proprietario (nome, (email | telefone)+)>
+<!ELEMENT nome (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT telefone (#PCDATA)>
+<!ELEMENT endereco (rua,bairro,cidade,numero?)>
+<!ELEMENT rua (#PCDATA)>
+<!ELEMENT bairro (#PCDATA)>
+<!ELEMENT cidade (#PCDATA)>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT caracteristicas (tamanho,numQuartos , numBanheiros)>
+<!ELEMENT tamanho (#PCDATA)>
+<!ELEMENT numQuartos (#PCDATA)>
+<!ELEMENT numBanheiros (#PCDATA)>
+<!ELEMENT valor (#PCDATA)>
+<!ELEMENT descricao (#PCDATA)>
+]>
+<imobiliaria>
+    <imovel>
+        <descricao>Apartamento com 2 quartos e varanda</descricao>
+        <proprietario>
+            <nome>João Silva</nome>
+            <telefone>+55 83 9999-1111</telefone>
+            <telefone>+55 83 9999-2222</telefone>
+            <email>joao.silva@example.com</email>
+        </proprietario>
+        <endereco>
+            <rua>Rua das Flores</rua>
+            <bairro>Centro</bairro>
+            <cidade>João Pessoa</cidade>
+            <numero>123</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>80</tamanho>
+            <numQuartos>2</numQuartos>
+            <numBanheiros>1</numBanheiros>
+        </caracteristicas>
+        <valor>350000</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Casa térrea com quintal</descricao>
+        <proprietario>
+            <nome>Maria Oliveira</nome>
+            <telefone>+55 83 9888-3333</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Alameda das Acácias</rua>
+            <bairro>Bessa</bairro>
+            <cidade>João Pessoa</cidade>
+            <numero>45</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>120</tamanho>
+            <numQuartos>3</numQuartos>
+            <numBanheiros>2</numBanheiros>
+        </caracteristicas>
+        <valor>420000</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Terreno plano em condomínio</descricao>
+        <proprietario>
+            <nome>Carlos Pereira</nome>
+            <email>carlos.pereira@example.com</email>
+        </proprietario>
+        <endereco>
+            <rua>Rodovia PB-008</rua>
+            <bairro>Distrito Industrial</bairro>
+            <cidade>Santa Rita</cidade>
+            <numero>500</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>500</tamanho>
+            <numQuartos>0</numQuartos>
+            <numBanheiros>0</numBanheiros>
+        </caracteristicas>
+        <valor>210000</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Kitnet mobiliada</descricao>
+        <proprietario>
+            <nome>Ana Beatriz</nome>
+            <telefone>+55 83 9777-4444</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Rua Senador Ruy Carneiro</rua>
+            <bairro>Manaíra</bairro>
+            <cidade>João Pessoa</cidade>
+            <numero>12B</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>35</tamanho>
+            <numQuartos>1</numQuartos>
+            <numBanheiros>1</numBanheiros>
+        </caracteristicas>
+        <valor>145000</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Apartamento sem número registrado</descricao>
+        <proprietario>
+            <nome>Bruno Castro</nome>
+            <telefone>+55 83 9666-5555</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Rua João Ximenes</rua>
+            <bairro>Jaguaribe</bairro>
+            <cidade>João Pessoa</cidade>
+        </endereco>
+        <caracteristicas>
+            <tamanho>70</tamanho>
+            <numQuartos>2</numQuartos>
+            <numBanheiros>1</numBanheiros>
+        </caracteristicas>
+        <valor>290000</valor>
+    </imovel>
+</imobiliaria>
