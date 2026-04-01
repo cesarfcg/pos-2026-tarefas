@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE quiz SYSTEM "quiz.dtd">
+
+<quiz versao="1.0">
+    <disciplina>POS</disciplina>
+    <professor>
+        <nome>Diego</nome>
+        <matrícula>066</matrícula>
+    </professor>
+    <turma>Info4v</turma>
+    <data>23/12/2018</data>
+    <questões>
+        <questão>
+            <enunciado></enunciado>
+            <pontuação></pontuação>
+            <alternativas>
+                <alternativa correta="sim"></alternativa>
+                <alternativa correta="nao"></alternativa>
+                <alternativa correta="nao"></alternativa>
+                <alternativa correta="nao"></alternativa>
+            </alternativas>
+        </questão>
+        <questão>
+            <enunciado>O que significa HTML?</enunciado>
+            <pontuação>1.0</pontuação>
+            <alternativas>
+                <alternativa correta="sim">Hyper Text Markup Language</alternativa>
+                <alternativa correta="nao">Home Tool Markup Language</alternativa>
+                <alternativa correta="nao">Hyperlinks and Text Markup Language</alternativa>
+                <alternativa correta="nao">High Text Machine Language</alternativa>
+            </alternativas>
+        </questão>
+        <questão>
+            <enunciado>Qual protocolo é usado para transferir páginas web?</enunciado>
+            <pontuação>1.0</pontuação>
+            <alternativas>
+                <alternativa correta="nao">FTP</alternativa>
+                <alternativa correta="sim">HTTP</alternativa>
+                <alternativa correta="nao">SMTP</alternativa>
+                <alternativa correta="nao">DNS</alternativa>
+            </alternativas>
+        </questão>
+        <questão>
+            <enunciado>Qual tag define o título de uma página HTML?</enunciado>
+            <pontuação>1.0</pontuação>
+            <alternativas>
+                <alternativa correta="sim">&lt;title&gt;</alternativa>
+                <alternativa correta="nao">&lt;head&gt;</alternativa>
+                <alternativa correta="nao">&lt;body&gt;</alternativa>
+                <alternativa correta="nao">&lt;h1&gt;</alternativa>
+            </alternativas>
+        </questão>
+        <questão>
+            <enunciado>Para que serve CSS?</enunciado>
+            <pontuação>1.0</pontuação>
+            <alternativas>
+                <alternativa correta="nao">Para estruturar o conteúdo</alternativa>
+                <alternativa correta="sim">Para aplicar estilos e layout</alternativa>
+                <alternativa correta="nao">Para programar lógica</alternativa>
+                <alternativa correta="nao">Para criar banco de dados</alternativa>
+            </alternativas>
+        </questão>
+        <questão>
+            <enunciado>Qual atributo é obrigatório em uma tag ?</enunciado>
+            <pontuação>1.0</pontuação>
+            <alternativas>
+                <alternativa correta="sim">src</alternativa>
+                <alternativa correta="nao">href</alternativa>
+                <alternativa correta="nao">id</alternativa>
+                <alternativa correta="nao">alt</alternativa>
+            </alternativas>
+        </questão>
+        <questão>
+            <enunciado>O que é JavaScript no contexto web?</enunciado>
+            <pontuação>1.0</pontuação>
+            <alternativas>
+                <alternativa correta="nao">Uma linguagem de marcação</alternativa>
+                <alternativa correta="nao">Uma linguagem de estilo</alternativa>
+                <alternativa correta="sim">Uma linguagem de programação para páginas web</alternativa>
+                <alternativa correta="nao">Um protocolo de comunicação</alternativa>
+            </alternativas>
+        </questão>
+    </questões>
+</quiz>
