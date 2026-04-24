@@ -1,4 +1,4 @@
-<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://imobiliaria.org" xmlns:i="http://imobiliaria.org">
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://imobiliaria.org" xmlns:i="http://imobiliaria.org" elementFormDefault="qualified">
     <element name="nome" type="string"/>
     <element name="email" type="string"/>
     <element name="telefone" type="string"/>
