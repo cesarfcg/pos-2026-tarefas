@@ -50,7 +50,7 @@
                 <element ref="b:calorias"/>
                 <element ref="b:tempoPreparo"/>
             </sequence>
-            <attribute name="id" type="ID" use="required"/>
+            <attribute name="id" type="integer" use="required"/>
         </complexType>
     </element>
 </schema>
