@@ -9,7 +9,7 @@
     <element name="tamanho" type="decimal"/>
     <element name="numQuartos" type="integer"/> 
     <element name="numBanheiros" type="integer"/>
-    <element name="valor" type="decimal"/>
+    <element name="valor" type="string"/>
     <element name="descricao" type="string"/>
 
     <element name="proprietario">
