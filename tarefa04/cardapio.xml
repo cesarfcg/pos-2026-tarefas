@@ -4,7 +4,7 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://cardapio.org 
                            cardapio.xsd">
-    <prato id="a1">
+    <prato id="1">
         <nome>
             coxinha
         </nome>
@@ -23,7 +23,7 @@
             15 minutos
         </tempoPreparo>
     </prato>
-    <prato id="a2">
+    <prato id="2">
         <nome>
             pastel
         </nome>
@@ -42,7 +42,7 @@
             20 minutos
         </tempoPreparo>
     </prato>
-    <prato id="a3">
+    <prato id="3">
         <nome>
             brigadeiro
         </nome>
@@ -62,7 +62,7 @@
             10 minutos
         </tempoPreparo>
     </prato>
-    <prato id="a4">
+    <prato id="4">
         <nome>
             suco de laranja
         </nome>
@@ -81,7 +81,7 @@
             5 minutos
         </tempoPreparo>
     </prato>
-    <prato id="a5">
+    <prato id="5">
         <nome>
             sanduíche natural
         </nome>
@@ -102,7 +102,7 @@
             12 minutos
         </tempoPreparo>
     </prato>
-    <prato id="a6">
+    <prato id="6">
         <nome>
             pizza de calabresa
         </nome>

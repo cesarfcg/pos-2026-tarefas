@@ -1,0 +1,84 @@
+{
+  "quiz": {
+    "versao": "1.0",
+    "disciplina": "POS",
+    "professor": {
+      "nome": "Diego",
+      "matricula": "066"
+    },
+    "turma": "Info4v",
+    "data": "23/12/2018",
+    "questoes": [
+      {
+        "enunciado": "amanhã tem aula",
+        "pontuacao": "1.0",
+        "alternativas": [
+          { "texto": "Não", "correta": "sim" },
+          { "texto": "Sim", "correta": "nao" },
+          { "texto": "Talvez", "correta": "nao" },
+          { "texto": "Não sei", "correta": "nao" }
+        ]
+      },
+      {
+        "enunciado": "O que significa HTML?",
+        "pontuacao": "1.0",
+        "alternativas": [
+          { "texto": "Hyper Text Markup Language", "correta": "sim" },
+          { "texto": "Home Tool Markup Language", "correta": "nao" },
+          { "texto": "Hyperlinks and Text Markup Language", "correta": "nao" },
+          { "texto": "High Text Machine Language", "correta": "nao" }
+        ]
+      },
+      {
+        "enunciado": "Qual protocolo é usado para transferir páginas web?",
+        "pontuacao": "1.0",
+        "alternativas": [
+          { "texto": "FTP", "correta": "nao" },
+          { "texto": "HTTP", "correta": "sim" },
+          { "texto": "SMTP", "correta": "nao" },
+          { "texto": "DNS", "correta": "nao" }
+        ]
+      },
+      {
+        "enunciado": "Qual tag define o título de uma página HTML?",
+        "pontuacao": "1.0",
+        "alternativas": [
+          { "texto": "<title>", "correta": "sim" },
+          { "texto": "<head>", "correta": "nao" },
+          { "texto": "<body>", "correta": "nao" },
+          { "texto": "<h1>", "correta": "nao" }
+        ]
+      },
+      {
+        "enunciado": "Para que serve CSS?",
+        "pontuacao": "1.0",
+        "alternativas": [
+          { "texto": "Para estruturar o conteúdo", "correta": "nao" },
+          { "texto": "Para aplicar estilos e layout", "correta": "sim" },
+          { "texto": "Para programar lógica", "correta": "nao" },
+          { "texto": "Para criar banco de dados", "correta": "nao" }
+        ]
+      },
+      {
+        "enunciado": "Qual atributo é obrigatório em uma tag ?",
+        "pontuacao": "1.0",
+        "alternativas": [
+          { "texto": "src", "correta": "sim" },
+          { "texto": "href", "correta": "nao" },
+          { "texto": "id", "correta": "nao" },
+          { "texto": "alt", "correta": "nao" }
+        ]
+      },
+      {
+        "enunciado": "O que é JavaScript no contexto web?",
+        "pontuacao": "1.0",
+        "alternativas": [
+          { "texto": "Uma linguagem de marcação", "correta": "nao" },
+          { "texto": "Uma linguagem de estilo", "correta": "nao" },
+          { "texto": "Uma linguagem de programação para páginas web", "correta": "sim" },
+          { "texto": "Um protocolo de comunicação", "correta": "nao" }
+        ]
+      }
+    ]
+  }
+}

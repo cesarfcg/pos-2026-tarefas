@@ -1,0 +1,78 @@
+{
+  "cardapio": {
+    "pratos": [
+      {
+        "id": 1,
+        "nome": "coxinha",
+        "descricao": "Farinha com carne",
+        "ingredientes": ["Farinha", "Frango"],
+        "preco": {
+          "valor": 5.50,
+          "moeda": "BRL"
+        },
+        "calorias": 2000,
+        "tempoPreparo": "15 minutos"
+      },
+      {
+        "id": 2,
+        "nome": "pastel",
+        "descricao": "Massa crocante com recheio de queijo",
+        "ingredientes": ["Massa", "Queijo"],
+        "preco": {
+          "valor": 4.00,
+          "moeda": "BRL"
+        },
+        "calorias": 350,
+        "tempoPreparo": "20 minutos"
+      },
+      {
+        "id": 3,
+        "nome": "brigadeiro",
+        "descricao": "Doce tradicional de chocolate",
+        "ingredientes": ["Leite condensado", "Cacau", "Manteiga"],
+        "preco": {
+          "valor": 2.00,
+          "moeda": "BRL"
+        },
+        "calorias": 120,
+        "tempoPreparo": "10 minutos"
+      },
+      {
+        "id": 4,
+        "nome": "suco de laranja",
+        "descricao": "Suco natural espremido na hora",
+        "ingredientes": ["Laranja", "Açúcar"],
+        "preco": {
+          "valor": 6.00,
+          "moeda": "BRL"
+        },
+        "calorias": 85,
+        "tempoPreparo": "5 minutos"
+      },
+      {
+        "id": 5,
+        "nome": "sanduíche natural",
+        "descricao": "Pão integral com frango e vegetais",
+        "ingredientes": ["Pão integral", "Frango", "Alface", "Tomate"],
+        "preco": {
+          "valor": 12.00,
+          "moeda": "BRL"
+        },
+        "calorias": 450,
+        "tempoPreparo": "12 minutos"
+      },
+      {
+        "id": 6,
+        "nome": "pizza de calabresa",
+        "descricao": "Massa fina com molho e calabresa",
+        "ingredientes": ["Massa", "Molho de tomate", "Calabresa", "Queijo"],
+        "preco": {
+          "valor": 5.00,
+          "moeda": "USD"
+        },
+        "calorias": 900,
+        "tempoPreparo": "30 minutos"
+      }
+    ]
+  }
+}
