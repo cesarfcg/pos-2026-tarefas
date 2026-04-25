@@ -17,6 +17,7 @@ while True:
         descricao = prato_selecionado.getElementsByTagName("descricao")[0].firstChild.nodeValue.strip()
         ingrediente = prato_selecionado.getElementsByTagName("ingrediente")[0].firstChild.nodeValue.strip()
         preco = prato_selecionado.getElementsByTagName("preco")[0].firstChild.nodeValue.strip()
+        moeda = prato_selecionado.getElementsByTagName("preco")[0].getAttribute("moeda")
         calorias = prato_selecionado.getElementsByTagName("calorias")[0].firstChild.nodeValue.strip()
         tempo_preparo = prato_selecionado.getElementsByTagName("tempoPreparo")[0].firstChild.nodeValue.strip()
         lista_ingredientes = []
@@ -29,7 +30,7 @@ while True:
 
         for ing in lista_ingredientes:
             print(f"- {ing}")
-        print(f"Preço: {preco}")
+        print(f"Preço: {moeda} {preco} ")
         print(f"Calorias: {calorias}")
         print(f"Tempo de preparo: {tempo_preparo}")
         print("--------------------------------")

@@ -94,7 +94,7 @@
             <ingrediente>Alface</ingrediente>
             <ingrediente>Tomate</ingrediente>
         </ingredientes>
-        <preco moeda="BRL">12.00</preco>
+        <preco moeda="USD">12.00</preco>
         <calorias>
             450
         </calorias>
