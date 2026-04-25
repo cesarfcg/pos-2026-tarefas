@@ -11,9 +11,13 @@ while True:
     print("--------------------------------")
     input_id = int(input("Digite o id do prato para saber mais detalhes: "))
     print("--------------------------------")
-
-    if input_id <= len(pratos):
-        prato_selecionado = pratos[int(input_id)-1]
+    prato_selecionado = None
+    for prato_sel in pratos:
+         if input_id == int(prato_sel.getAttribute("id")):
+            prato_selecionado = prato_sel
+            break
+    if prato_selecionado:
+        nome = prato_selecionado.getElementsByTagName("nome")[0].firstChild.nodeValue.strip()
         descricao = prato_selecionado.getElementsByTagName("descricao")[0].firstChild.nodeValue.strip()
         ingrediente = prato_selecionado.getElementsByTagName("ingrediente")[0].firstChild.nodeValue.strip()
         preco = prato_selecionado.getElementsByTagName("preco")[0].firstChild.nodeValue.strip()
@@ -25,6 +29,7 @@ while True:
         for x in prato_selecionado.getElementsByTagName("ingrediente"):
             ingrediente = x.firstChild.nodeValue.strip()
             lista_ingredientes.append(ingrediente)
+        print(f"Nome: {nome}")
         print(f"Descrição: {descricao}")
         print("Ingredientes:")
 
