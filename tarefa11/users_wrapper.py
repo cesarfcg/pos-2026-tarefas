@@ -1,5 +1,6 @@
 import requests
 API_URL = "https://jsonplaceholder.typicode.com/users"
+
 def listar():
     response = requests.get(API_URL)
     inf = response.json()
