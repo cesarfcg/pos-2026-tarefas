@@ -1,17 +1,30 @@
 import requests
-api_url = "https://jsonplaceholder.typicode.com/users"
-def list():
-    response = requests.get(api_url)
-    for user in response.json():
-        print(f"User {user['id']}: {user['name']}")
-def create():
-    new_user = { "name": "John Doe", "username": "johndoe", "email": "johndoe@example.com" }
-    response = requests.post(api_url, json=new_user)
-    return response.json()
-def read():
-    response = requests.get(api_url)
-    return response.json()
-def delete(user_id):
-    response = requests.delete(api_url + f"/{user_id}")
+API_URL = "https://jsonplaceholder.typicode.com/users"
+def listar():
+    response = requests.get(API_URL)
+    inf = response.json()
+    if response.status_code == 200:
+        print(inf)
+
+def ler(user_id):
+    response = requests.get(f"{API_URL+"/"+user_id}")
+    if response.status_code == 200:
+        print (response.json())
+
+def criar(content):
+    response = requests.post(API_URL, json=content)
+    if response.status_code == 201:
+        print("User criado",response.json())
+
+def deletar(user_id):
+    response = requests.delete(f"{API_URL+"/"+user_id}")
     if response.status_code == 200:
         print(f"User {user_id} foi deletado")
+
+def atualizar(user_id, content):
+    response = requests.put(f"{API_URL+"/"+user_id}", json=content)
+    u = response.json()
+    if response.status_code == 200:
+        print(f"Usuário id {u['id']} atualizado")
+    else:
+        print("erro")
