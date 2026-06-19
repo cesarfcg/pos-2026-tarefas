@@ -12,7 +12,6 @@ api_url = "https://suap.ifrn.edu.br"
 # token = response.json()["access"]
 # print(response.json())
 
-token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgxOTgyNjAwLCJpYXQiOjE3ODE4OTYyMDAsImp0aSI6IjI3YTM1ZmYxMmNlZDRhNzViOWFjOWZlMjIyNGExMzgwIiwidXNlcl9pZCI6MzY5ODIxfQ.E7gKDZlVQcsibOyV2RzGnyeJ7XgydfdxlgA5K7Pja8k"
 headers = {
     "Authorization": f'Bearer {token}'
 }
@@ -29,5 +28,5 @@ print(response.text)
 print(response.json())
 disciplinas = response.json()["results"]
 for x in disciplinas:
-    print(f"{x["disciplina"]}\nnota etapa 1: {x["nota_etapa_1"]["nota"]} - nota etapa 4: {x["nota_etapa_1"]["nota"]} - nota etapa 3: {x["nota_etapa_3"]["nota"]} - nota etapa 4: {x["nota_etapa_4"]["nota"]}")
+    print(f"{x["disciplina"]}\n - nota etapa 1: {x["nota_etapa_1"]["nota"]}\n- nota etapa 2: {x["nota_etapa_2"]["nota"]}\n - nota etapa 3: {x["nota_etapa_3"]["nota"]}\n - nota etapa 4: {x["nota_etapa_4"]["nota"]}")
    
